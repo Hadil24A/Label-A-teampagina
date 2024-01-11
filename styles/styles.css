@@ -58,10 +58,12 @@ main hr {
     width: 5.5em
 }
 
-p, ul {
+p  {
     color: var(--clr-small-text);    
     font-family: "Lunchtype", "sans-serif";
+    line-height: 1.4em;
     margin: 1em 1em 1em 2em;
+    max-width: 18em;
 }
 
 select {
@@ -75,12 +77,32 @@ img {
     width: 19em;
 }
 
- main ul {
+.emp-inf {
+    background-color: var(--clr-background);
     color: var(--clr-small-text);    
     font-family: "Plus jakarta sans", "sans-serif";
+    height: 19.3em;
     list-style: none;
-    margin: 1em 1em 1em 2em;
-    width: max-content;
+    opacity: 0.9;
+    padding: 1em 1em 1em 2em; 
+    position: absolute;
+    top: 0.2em;
+    visibility: hidden;
+    width: 19.47em;
+}
+
+.show-emp-inf {
+    background-color: var(--clr-background);
+    color: var(--clr-small-text);    
+    font-family: "Plus jakarta sans", "sans-serif";
+    height: 19.3em;
+    list-style: none;
+    opacity: 0.9;
+    padding: 1em 1em 1em 2em; 
+    position: absolute;
+    top: 0.2em;
+    visibility: visible;
+    width: 19.47em;
 }
 
 main ul li:first-child, li:nth-child(3n+3) {
@@ -93,6 +115,11 @@ main ul li:first-child {
 
 main li:last-child {
     width: 15em;
+}
+
+.employee {
+    position: relative;
+    cursor: pointer;
 }
 
 footer {
@@ -114,4 +141,13 @@ footer  ul {
     line-height: 2em;
     list-style: none;
     margin: 0 1em 0 1em;
+}
+
+@media  (min-width:750px){
+    article {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 1em;
+    }
 }
