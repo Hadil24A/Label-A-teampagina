@@ -78,8 +78,8 @@ img {
  main ul {
     color: var(--clr-small-text);    
     font-family: "Plus jakarta sans", "sans-serif";
-    margin: 1em 1em 1em 2em;
     list-style: none;
+    margin: 1em 1em 1em 2em;
     width: max-content;
 }
 
