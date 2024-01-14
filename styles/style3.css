@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    padding: 0em;
+    margin: 0em;
+}
+
+:root {
+    --clr-background: #181818;
+    --clr-main-text: #FFFFFF;
+    --clr-small-text: #D0D0D0;
+    --clr-primary: #00D146;
+    --clr-neutral: #585858;
+}
+
+body {
+    background: var(--clr-background);
+    color: var(--clr-main-text);
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* NAVIGATIEBALK STIJLING */
+.navbar {
+    align-items: center;
+    display: flex;
+    height: 4em;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.nav-menu {
+    align-items: start;
+    background-color: var(--clr-primary);
+    box-shadow: 5px 3px 3px var(--clr-small-text);
+    display: flex;
+    font-size: 1.2em;
+    justify-content: start;
+    line-height: 2em;
+    list-style: none;
+    padding: 2em  0em 1.7em 7em ;
+    width: 100%;
+}
+
+.nav-menu li:hover {
+    color: var(--clr-primary);
+    cursor: pointer;
+}
+
+.bar {
+    background-color: var(--clr-main-text);
+    color: var(--clr-main-text);
+    display: block;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    width: 25px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+@media (max-width:930px){
+    .hamburger {
+        display: block;
+    }
+    .nav-menu-largescreen {
+        visibility: hidden;
+    }
+    }
+    .hamburger.active .bar:first-child {
+        transform: translateY(0px) rotate(45deg);
+    }
+    .hamburger.active .bar:last-child {
+        transform: translateY(0px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        background-color: var(--clr-background);
+        flex-direction: column;
+        gap: 0;
+        left: -130%;
+        position: absolute;
+        transition: 0.8s;
+        text-align: center;
+        top: 60px;
+        width: 100%;
+    }
+    
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 6em;
+        padding: 0;
+        width: 100vw;
+    }
+
+/* EINDE NAVIGATIEBALK STIJLING */
+
+h1 {
+    color: var(--clr-main-text);
+    font-size: 2.25em;
+    font-weight: 700;
+    margin: 1em 1em 0em 1em;
+}
+
+h2 {
+    color: var(--clr-main-text);
+    font-size: 1.25em;
+    margin: 1em 1em 0em 1em;
+}
+.line {
+    background-color: var(--clr-primary);
+    display: block;
+    height: 3px;
+    margin: 0em 0em 1em 6.8em;
+    width: 100px;
+}
+ p {
+    margin: 1em;
+ }
+
+ label {
+    visibility: hidden;
+ }
+
+ select {
+    background-color: var(--clr-background);
+    border-radius: 24px;
+    color: var(--clr-main-text);
+    margin: 1em 5em 1em 6.5em;
+    padding: 10px 16.6px 10px 16.6px;
+}
+
+select:focus {
+    border: solid 1px var(--clr-primary);
+}
+
+section img {
+    border-radius: 16px;
+}
+
+section:last-child {
+    margin: 0.5em 1em 0.5em 1em;
+}
+
+.emp-inf-1, .emp-inf-2, .emp-inf-3, .emp-inf-4, .emp-inf-5, .emp-inf-6, .emp-inf-7, .emp-inf-8, .emp-inf-9, .emp-inf-10, .emp-inf-11, .emp-inf-12, .emp-inf-13, .emp-inf-14, .emp-inf-15, .emp-inf-16, .emp-inf-17, .emp-inf-18, .emp-inf-19, .emp-inf-20, .emp-inf-21, .emp-inf-22, .emp-inf-24, .emp-inf-25, .emp-inf-26, .emp-inf-27, .emp-inf-28, .emp-inf-29, .emp-inf-30, .emp-inf-31, .emp-inf-32, .emp-inf-33, .emp-inf-34, .emp-inf-35, .emp-inf-36, .emp-inf-37, .emp-inf-38, .emp-inf-39, .emp-inf-40, .emp-inf-41, .emp-inf-42, .emp-inf-43, .emp-inf-44, {
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
