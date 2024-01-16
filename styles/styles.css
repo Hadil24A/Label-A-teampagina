@@ -150,10 +150,11 @@ h1 {
     margin: 0em 1em 0em 1em;
 }
 
-h2 {
+h2, h3 {
     color: var(--clr-main-text);
     font-size: 1.25em;
-    margin: 1em 1em 0em 3em;
+    margin: 1em 1em 1em 3em;
+    font-weight: 100;
 }
 .line {
     background-color: var(--clr-primary);
@@ -190,14 +191,14 @@ select:focus {
     border: solid 1px var(--clr-primary);
 }
 
-.werknemers img {
+section img {
     background: linear-gradient(to top, transparent, black);
     border-radius: 16px;
     width: 19em;
     cursor: pointer;
 }
 
-.werknemers {
+section:last-child {
     margin: 0.5em 1em 0.5em 1em;
 }
 .employee:last-child {
@@ -295,7 +296,7 @@ footer p {
         margin: 0 3em 0 3em;
     }
 
-    .werknemers {
+    section:last-child {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
