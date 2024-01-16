@@ -123,7 +123,7 @@ header {
         display: block;
     }
     
-    }
+    }   
 
     @media (min-width:930px) {
         .nav-menu {
@@ -156,6 +156,12 @@ h2, h3 {
     margin: 1em 1em 1em 3em;
     font-weight: 100;
 }
+
+h3 {
+    margin-right: 100%;
+    width: max-content;
+}
+
 .line {
     background-color: var(--clr-primary);
     display: block;
@@ -296,6 +302,11 @@ footer p {
         margin: 0 3em 0 3em;
     }
 
+    h3 {
+        margin-right: 70%;
+        width: max-content;
+    }
+
     section:last-child {
         display: flex;
         flex-direction: row;
@@ -303,6 +314,8 @@ footer p {
         gap: 1.9em;
         margin: 1em;
     }
+
+    
 
     footer {
         display: flex;
