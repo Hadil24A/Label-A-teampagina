@@ -29,6 +29,10 @@ main {
 
 /* NAVIGATIEBALK STIJLING */
 
+#logo {
+    margin: 2em 1em 1em 2em;
+}
+
 header {
     margin: 1em 0.5em 2em 0.5em;
     position: relative;
