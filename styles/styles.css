@@ -39,13 +39,6 @@ header {
 
 }
 
-@media  (max-width:870) {
-    section:last-child {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 @media (max-width:930px){
     .navbar {
         align-items: center;
@@ -146,12 +139,6 @@ header {
             color: var(--clr-primary);
             cursor: pointer;
         }
-
-        h3 {
-            margin-left: 5em;
-            margin-right: 100%;
-            width: max-content;
-        }
     }
 
 /* EINDE NAVIGATIEBALK STIJLING */
@@ -171,7 +158,7 @@ h2, h3 {
 }
 
 h3 {
-    margin: 0.5em 0 0.5em 0;
+    margin: 0.5em 0 0.5em 2.9em;
 }
 
 .line {
@@ -222,7 +209,7 @@ section img {
     cursor: pointer;
 }
 
-section:last-child {
+.ALL-EMPLOYEES {
     margin: 0.5em 0 0.5em 0;
     display: flex;
     flex-wrap: wrap;
@@ -323,11 +310,6 @@ footer p {
 @media  (min-width:870px){
     body {
         margin: 0 3em 0 3em;
-    }
-
-    h3 {
-        margin-right: 70%;
-        width: max-content;
     }
 
     section:last-child {
