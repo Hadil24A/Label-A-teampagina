@@ -29,19 +29,3 @@ linkjes.forEach(function(link) {
     })
 })
 
-// let removeInfo = document.querySelectorAll('.employee-info')
-
-// removeInfo.forEach(function() {
-//     linkjes.addEventListener('click', function() {
-// console.log()
-//         // Toggle de class van Dat element
-//         removeInfonfo.classList.toggle('employee-info');
-//     })
-// })
-
-
-let info = document.querySelector('.employee-info-visible')
-
-info.addEventListener('click', function() {
-    info.classList.remove('employee-info-visible')
-})

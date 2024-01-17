@@ -132,12 +132,18 @@ header {
             gap: 3em;
             list-style: none;
             position: absolute;
-            top: 1em; right: -2em;
+            top: 2.5em; right: -2em;
         }
 
         .nav-menu a:hover {
             color: var(--clr-primary);
             cursor: pointer;
+        }
+
+        h3 {
+            margin-left: 5em;
+            margin-right: 100%;
+            width: max-content;
         }
     }
 
@@ -158,8 +164,7 @@ h2, h3 {
 }
 
 h3 {
-    margin-right: 100%;
-    width: max-content;
+    margin: 0.5em 0 0.5em 0;
 }
 
 .line {
@@ -188,6 +193,7 @@ h3 {
     background-color: var(--clr-background);
     border-radius: 24px;
     color: var(--clr-main-text);
+    cursor: pointer;
     margin: 1em 5em 1em 5em;
     padding: 10px 16.6px 10px 16.6px;
     width: 250px;
@@ -205,7 +211,10 @@ section img {
 }
 
 section:last-child {
-    margin: 0.5em 1em 0.5em 1em;
+    margin: 0.5em 0 0.5em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .employee:last-child {
     margin: 1em;
@@ -224,6 +233,7 @@ section:last-child {
     position: absolute;
     bottom: 1em;
     right: 1em;
+    z-index: 999;
 }
 
 .gradient {
@@ -314,8 +324,6 @@ footer p {
         gap: 1.9em;
         margin: 1em;
     }
-
-    
 
     footer {
         display: flex;
