@@ -175,10 +175,15 @@ h3 {
     width: 150px;
 }
  p {
-    color: var(--clr-small-text);    
+    color: var(--clr-small-text);
+    font-family: 'Plus Jakarta Sans', sans-serif; 
     line-height: 1.4em;
     margin: 2em 2em 2em 3.7em;
-    max-width: 19em;
+    max-width: 30em;
+ }
+
+ section:last-child p {
+    font-family: 'Ubuntu', sans-serif;;
  }
 
  label {
@@ -289,6 +294,7 @@ section:last-child {
 footer {
     display: flex;
     flex-direction: column;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     margin: 1em;
 }
 
