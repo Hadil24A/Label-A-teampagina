@@ -37,125 +37,140 @@ header {
     margin: 1em 0.5em 2em 0.5em;
     position: relative;
 
+    .nav-menu p {
+        display: none;
+    }
 }
 
 @media (max-width:930px){
-    .navbar {
-        align-items: center;
-        display: flex;
-        height: 4em;
-        justify-content: space-between;
-        padding: 0 24px;
-    }
+        .navbar {
+            align-items: center;
+            display: flex;
+            height: 4em;
+            justify-content: space-between;
+            padding: 0 24px;
+        }
 
-    /* .nav-menu {
-        display: none;
-    }
+        .nav-menu {
+            opacity: 0;
+            transition: opacity 0.3s ease; 
+            align-items: end;
+            background-color: var(--clr-background);
+            display: flex;
+            flex-direction: column;
+            font-size: 1.2em;
+            line-height: 2em;
+            list-style: none;
+            position: absolute;
+            top: 4em;
+            right: 2em;
+            z-index: 100;
+        }
+        
+        .show-nav-menu {
+            opacity: 1;
+        }
 
-    .show-nav-menu {
-        animation: show-menu 0.7s ease;
-        align-items: end;
-        background-color: var(--clr-background);
-        display: flex;
-        flex-direction: column;
-        font-size: 1.2em;
-        line-height: 2em;
-        list-style: none;
-        position: absolute;
-        top: 4em; right: 2em;
-        z-index: 100;
-    }
+        .nav-menu a:hover {
+            border-bottom: var(--clr-primary) solid 1px;
+            cursor: pointer;
+        }
 
-    @keyframes show-menu {
-        0% { opacity: 0; } 100% { opacity: 1; }
-    } */
+        .bar {
+            background-color: var(--clr-main-text);
+            color: var(--clr-main-text);
+            display: block;
+            height: 3px;
+            margin: 5px auto;
+            transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            width: 25px;
+        }
 
-    .nav-menu {
-        opacity: 0;
-        transition: opacity 0.7s ease; /* Added transition for opacity with delay */
-        align-items: end;
-        background-color: var(--clr-background);
-        display: flex;
-        flex-direction: column;
-        font-size: 1.2em;
-        line-height: 2em;
-        list-style: none;
-        position: absolute;
-        top: 4em;
-        right: 2em;
-        z-index: 100;
-    }
-    
-    .show-nav-menu {
-        opacity: 1;
-    }
+        .hamburger {
+            background: var(--clr-background);
+            border: var(--clr-neutral-600) solid 1px;
+            border-radius: 24px;
+            display: none;
+            cursor: pointer;
+            padding: 12px;
+            position: absolute;
+            top: 1em;
+            right: 1em;
+        }
+        
+        .hamburger.active {
+            animation: big-menu 0.7s ease;
+            padding: 12px 12px 19em 8em;
+            /* border: var(--clr-primary) solid 1px; */
+        }
 
-    .nav-menu a:hover {
-        color: var(--clr-primary);
-        cursor: pointer;
-    }
+        @keyframes big-menu {
+            0% {padding: 12px;} 100% {padding: 12px 12px 19em 8em;}
+        }
 
-    .bar {
-        background-color: var(--clr-main-text);
-        color: var(--clr-main-text);
-        display: block;
-        height: 3px;
-        margin: 5px auto;
-        transition: all 0.3s ease-in-out;
-        -webkit-transition: all 0.3s ease-in-out;
-        width: 25px;
-    }
+        .hamburger.active .bar:nth-child(1) {
+            transform: rotate(-45deg) translateY(3px) translateX(3px);
+        }
 
-    .hamburger {
-        background: var(--clr-background);
-        border: var(--clr-neutral-600) solid 1px;
-        border-radius: 24px;
-        display: none;
-        cursor: pointer;
-        padding: 12px;
-        position: absolute;
-        top: 1em;
-        right: 1em;
-    }
-    
-    .hamburger.active {
-        animation: big-menu 0.7s ease;
-        padding: 12px 12px 19em 8em;
-        /* border: var(--clr-primary) solid 1px; */
-    }
+        .hamburger.active .bar:nth-child(2) {
+            transform: rotate(45deg) translate(-3px, -8px);
+        }
 
-    @keyframes big-menu {
-        0% {padding: 12px;} 100% {padding: 12px 12px 19em 8em;}
-    }
-
-    .hamburger.active .bar:nth-child(1) {
-        transform: rotate(-45deg) translateY(3px) translateX(3px);
-      }
-
-    .hamburger.active .bar:nth-child(2) {
-        transform: rotate(45deg) translate(-3px, -8px);
-      }
-
-    .hamburger {
-        display: block;
-    }
-    
+        .hamburger {
+            display: block;
+        }
     }   
 
     @media (min-width:930px) {
         .nav-menu {
             display: flex;
-            flex-direction: row;
-            gap: 3em;
+            flex-direction: column;
+            font-size: 3.5em;
+            font-weight: 500;
+            max-height: 0em;
             list-style: none;
+            line-height: 3em;
             position: absolute;
-            top: 2.5em; right: -2em;
+            bottom: -74em; left: 2em;
+            column-count: 2;
+            column-gap: 3em;
         }
 
+        .nav-menu p {
+            font-size: 16px;
+            margin:0;
+        }
+
+        .nav-menu li:nth-last-of-type(5) {
+            position: absolute;
+            bottom: -3.4em; left: 7em;
+            width: max-content;
+        }
+
+        .nav-menu li:nth-last-of-type(6) {
+            position: absolute;
+            bottom: -6.4em; left: 7em;
+            width: max-content;
+        }
+
+
+        .nav-menu li:nth-last-of-type(7) {
+            position: absolute;
+            bottom: -9.5em; left: 7em;
+            width: max-content;
+        }
+
+
         .nav-menu a:hover {
-            color: var(--clr-primary);
+            border-bottom: var(--clr-primary) solid 2px;
             cursor: pointer;
         }
+
+        .ALL-EMPLOYEES {
+            padding-bottom: 50em;
+        }
+
     }
 
 /* EINDE NAVIGATIEBALK STIJLING */
@@ -315,14 +330,6 @@ section img {
     margin-top: 0.5em;
 }
 
-.line2 {
-    background-color: var(--clr-small-text);
-    display: block;
-    height: 1px;
-    margin: 0em 0.5em 0em 0.5em;
-    width: 100;
-}
-
 footer {
     display: flex;
     flex-direction: column;
@@ -343,6 +350,14 @@ footer  ul {
 
 footer p {
     margin: 0;
+}
+
+.line2 {
+    background-color: var(--clr-small-text);
+    display: block;
+    height: 1px;
+    margin: 0em 0.5em 0em 0.5em;
+    width: 100;
 }
 
 @media  (min-width:870px){
