@@ -48,17 +48,46 @@ header {
         padding: 0 24px;
     }
 
-    .nav-menu {
+    /* .nav-menu {
+        display: none;
+    }
+
+    .show-nav-menu {
+        animation: show-menu 0.7s ease;
         align-items: end;
         background-color: var(--clr-background);
         display: flex;
         flex-direction: column;
         font-size: 1.2em;
-        line-height: 1.7em;
+        line-height: 2em;
         list-style: none;
         position: absolute;
         top: 4em; right: 2em;
         z-index: 100;
+    }
+
+    @keyframes show-menu {
+        0% { opacity: 0; } 100% { opacity: 1; }
+    } */
+
+    .nav-menu {
+        opacity: 0;
+        transition: opacity 0.4s ease; /* Added transition for opacity with delay */
+        align-items: end;
+        background-color: var(--clr-background);
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2em;
+        line-height: 2em;
+        list-style: none;
+        position: absolute;
+        top: 4em;
+        right: 2em;
+        z-index: 100;
+    }
+    
+    .show-nav-menu {
+        opacity: 1;
     }
 
     .nav-menu a:hover {
@@ -90,12 +119,13 @@ header {
     }
     
     .hamburger.active {
-        animation: big-menu 0.7s;
-        padding: 12px 12px 20em 10em;
+        animation: big-menu 0.7s ease;
+        padding: 12px 12px 19em 8em;
+        /* border: var(--clr-primary) solid 1px; */
     }
 
     @keyframes big-menu {
-        0% {padding: 12px;} 100% {padding: 12px 12px 20em 10em;}
+        0% {padding: 12px;} 100% {padding: 12px 12px 19em 8em;}
     }
 
     .hamburger.active .bar:nth-child(1) {
