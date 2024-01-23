@@ -333,6 +333,7 @@ footer p {
     background: var(--clr-background);
     width: max-content;
     border: none;
+    border-radius: 50%;
     position: fixed;
     bottom: 3em; right: 1em;
     rotate: -90deg;
