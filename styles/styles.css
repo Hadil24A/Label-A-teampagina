@@ -142,7 +142,7 @@ header {
         width: 100vw;
     }
 
-    .nav-menu a:hover {
+    .nav-menu a:hover, .nav-menu li:nth-child(3) {
         border-bottom: var(--clr-primary) solid 2px;
         cursor: pointer;
     }
