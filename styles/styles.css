@@ -157,7 +157,10 @@ h1 {
     margin: 0em 1em 0em 1em;
 }
 
-h2, h3 {
+h2 {
+    display: none;
+}
+h3 {
     color: var(--clr-main-text);
     font-size: 1.25em;
     margin: 1em 1em 1em 3em;
@@ -185,8 +188,9 @@ h2, h3 {
  }
 
  label {
-    visibility: hidden;
- }
+    margin: 1em 1em 0em 4em;
+    color: var(--clr-small-text);
+}
 
  form {
     display: flex;
