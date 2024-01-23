@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0em;
     margin: 0em;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -326,6 +327,15 @@ footer  ul {
 
 footer p {
     margin: 0;
+}
+
+#backToTop {
+    background: var(--clr-background);
+    width: max-content;
+    border: none;
+    position: fixed;
+    bottom: 3em; right: 1em;
+    rotate: -90deg;
 }
 
 .line2 {
