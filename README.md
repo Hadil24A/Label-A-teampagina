@@ -23,9 +23,8 @@ Op de teampagina zijn alle werknemers van Label A te zien. Er kan gefilterd word
 De technieken die ik gebruikt heb zijn HTML, CSS en JavaScript. De HTML is semantisch, gevalideerd en toegankelijk. Bij de CSS heb ik gebruik gemaakt van custom properties. Voor de teampagina heb ik ook JavaScript moeten gebruiken. Ih heb daarvoor een drie-stappenplan aangehouden.De JavaScript interactie die ik bedacht heb is op een button klikken zodat er meer informatie verschijnt over een werknemer. 
 
 ## Bronnen
-
+#### [Figma bestand](https://www.figma.com/file/YI8HLwbb1ht2cS0t6IAVk3/LA-Website-2024-%E2%80%94-Opdracht?type=design&node-id=0-1&mode=design&t=RZgnGeiivllSlMeI-0)
 
 ## Licentie
-
 This project is licensed under the terms of the [MIT license](./LICENSE).
 
