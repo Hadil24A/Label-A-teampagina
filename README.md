@@ -3,7 +3,7 @@
 # Label A teampagina
 Een responsive teampagina maken in de nieuwe huisstijl van Label A. 
 
-<img src= "https://github.com/Hadil24A/Label-A-teampagina/assets/144008714/9d7581d7-a202-4251-a6f3-9a13adda0cc2" width= "900px">
+<img src= "https://github.com/Hadil24A/Label-A-teampagina/assets/144008714/d179ee05-6af1-40b5-aff2-f4311706a191" width= "900px">
 
 #### [Live URL Label A teampagina](https://hadil24a.github.io/Label-A-teampagina/)
 
