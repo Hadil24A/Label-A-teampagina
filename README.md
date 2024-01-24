@@ -15,7 +15,7 @@ Een responsive teampagina maken in de nieuwe huisstijl van Label A.
   * [Licentie](#licentie)
 
 ## Beschrijving
-De opdrachtgever is Label A. De opdracht die wij hebben gekregen is een teampagina maken. Label A wil een teampagina om het vertrouwen van hun klanten te krijgen. De aanleiding van deze opdracht is dat Label A hun website wil vernieuwen. Op de teampagina zijn alle werknemers van Label A te zien. Er kan gefilterd worden op functie. Ook krijg je meer informatie over de werknemer te zien als je op hun afbeelding klikt. 
+Label A heeft ons de opdracht gegeven om een teampagina te creëren als onderdeel van hun websitevernieuwing. Label A wil een teampagina om het vertrouwen van hun klanten te krijgen. De aanleiding van deze opdracht is dat Label A hun website wil vernieuwen. Op de teampagina zijn alle werknemers van Label A te zien. Er kan gefilterd worden op functie. Ook krijg je meer informatie over de werknemer te zien als je op hun afbeelding klikt. 
 
 ## Kenmerken
 De technieken die ik gebruikt heb zijn HTML, CSS en JavaScript. De HTML is semantisch, gevalideerd en toegankelijk. Bij de CSS heb ik gebruik gemaakt van custom properties. Voor de teampagina heb ik ook JavaScript moeten gebruiken. Ih heb daarvoor een drie-stappenplan aangehouden.De JavaScript interactie die ik bedacht heb is op een button klikken zodat er meer informatie verschijnt over een werknemer. 
