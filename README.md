@@ -2,6 +2,14 @@
 
 # Label A teampagina
 Een responsive teampagina maken in de nieuwe huisstijl van Label A. 
+
+## Inhoudsopgave
+
+  * [Beschrijving](#beschrijving)
+  * [Kenmerken](#kenmerken)
+  * [Bronnen](#bronnen)
+  * [Licentie](#licentie)
+
 ## Beschrijving
 Op de teampagina zijn alle werknemers van Label A te zien. Er kan gefilterd worden op functie. Ook krijg je meer informatie over de werknemer te zien als je op hun afbeelding klikt.
 
@@ -13,6 +21,10 @@ Op de teampagina zijn alle werknemers van Label A te zien. Er kan gefilterd word
 
 ## Kenmerken
 De technieken die ik gebruikt heb zijn HTML, CSS en JavaScript. De HTML is semantisch, gevalideerd en toegankelijk. Bij de CSS heb ik gebruik gemaakt van custom properties. Voor de teampagina heb ik ook JavaScript moeten gebruiken. Ih heb daarvoor een drie-stappenplan aangehouden.De JavaScript interactie die ik bedacht heb is op een button klikken zodat er meer informatie verschijnt over een werknemer. 
+
+## Bronnen
+
+
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
