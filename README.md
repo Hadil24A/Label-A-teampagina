@@ -12,8 +12,7 @@ Op de teampagina zijn alle werknemers van Label A te zien. Er kan gefilterd word
 #### [Live URL Label A teampagina](https://hadil24a.github.io/the-startup-responsive-interactieve-website-Label-A/)
 
 ## Kenmerken
-De technieken die ik gebruikt heb zijn ...... De HTML is semantisch, gevalideerd en toegankelijk. Bij de CSS heb ik gebruik gemaakt van custom properties. Voor de teampagina heb ik ook JavaScript moeten gebruiken. Ih heb daarvoor een drie-stappenplan aangehouden.
-
+De technieken die ik gebruikt heb zijn HTML, CSS en JavaScript. De HTML is semantisch, gevalideerd en toegankelijk. Bij de CSS heb ik gebruik gemaakt van custom properties. Voor de teampagina heb ik ook JavaScript moeten gebruiken. Ih heb daarvoor een drie-stappenplan aangehouden.De JavaScript interactie die ik bedacht heb is op een button klikken zodat er meer informatie verschijnt over een werknemer. 
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
