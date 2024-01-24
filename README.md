@@ -17,7 +17,7 @@ Op de teampagina zijn alle werknemers van Label A te zien. Er kan gefilterd word
 <img src= "https://github.com/Hadil24A/the-startup-responsive-interactieve-website-Label-A/assets/144008714/775eacdd-8655-49ac-aab1-97edf4015af1" width= "600px">
 <img src= "https://github.com/Hadil24A/the-startup-responsive-interactieve-website-Label-A/assets/144008714/b5d38c24-0e4b-4f7e-8352-e14e7ad43fb0" height= "300px"> 
 
-#### [Live URL Label A teampagina](https://hadil24a.github.io/the-startup-responsive-interactieve-website-Label-A/)
+#### [Live URL Label A team pagina](https://hadil24a.github.io/Label-A-teampagina/)
 
 ## Kenmerken
 De technieken die ik gebruikt heb zijn HTML, CSS en JavaScript. De HTML is semantisch, gevalideerd en toegankelijk. Bij de CSS heb ik gebruik gemaakt van custom properties. Voor de teampagina heb ik ook JavaScript moeten gebruiken. Ih heb daarvoor een drie-stappenplan aangehouden.De JavaScript interactie die ik bedacht heb is op een button klikken zodat er meer informatie verschijnt over een werknemer. 
