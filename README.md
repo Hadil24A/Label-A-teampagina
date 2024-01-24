@@ -3,6 +3,10 @@
 # Label A teampagina
 Een responsive teampagina maken in de nieuwe huisstijl van Label A. 
 
+<img src= "https://github.com/Hadil24A/Label-A-teampagina/assets/144008714/9d7581d7-a202-4251-a6f3-9a13adda0cc2" width= "900px">
+
+#### [Live URL Label A teampagina](https://hadil24a.github.io/Label-A-teampagina/)
+
 ## Inhoudsopgave
 
   * [Beschrijving](#beschrijving)
@@ -12,12 +16,6 @@ Een responsive teampagina maken in de nieuwe huisstijl van Label A.
 
 ## Beschrijving
 De opdrachtgever is Label A. De opdracht die wij hebben gekregen is een teampagina maken. Label A wil een teampagina om het vertrouwen van hun klanten te krijgen. De aanleiding van deze opdracht is dat Label A hun website wil vernieuwen. Op de teampagina zijn alle werknemers van Label A te zien. Er kan gefilterd worden op functie. Ook krijg je meer informatie over de werknemer te zien als je op hun afbeelding klikt. 
-
-
-<img src= "https://github.com/Hadil24A/the-startup-responsive-interactieve-website-Label-A/assets/144008714/775eacdd-8655-49ac-aab1-97edf4015af1" width= "600px">
-<img src= "https://github.com/Hadil24A/the-startup-responsive-interactieve-website-Label-A/assets/144008714/b5d38c24-0e4b-4f7e-8352-e14e7ad43fb0" height= "300px"> 
-
-#### [Live URL Label A teampagina](https://hadil24a.github.io/Label-A-teampagina/)
 
 ## Kenmerken
 De technieken die ik gebruikt heb zijn HTML, CSS en JavaScript. De HTML is semantisch, gevalideerd en toegankelijk. Bij de CSS heb ik gebruik gemaakt van custom properties. Voor de teampagina heb ik ook JavaScript moeten gebruiken. Ih heb daarvoor een drie-stappenplan aangehouden.De JavaScript interactie die ik bedacht heb is op een button klikken zodat er meer informatie verschijnt over een werknemer. 
