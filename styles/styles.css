@@ -215,12 +215,12 @@ select:focus {
 section img {
     background: linear-gradient(to top, transparent, black);
     border-radius: 16px;
-    width: 19em;
+    width: 24em;
     cursor: pointer;
 }
 
 .ALL-EMPLOYEES {
-    margin: 0.5em 0 0.5em 0;
+    margin: 0.2em 0 0.2em 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
