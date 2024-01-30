@@ -265,14 +265,14 @@ section img {
 .employee-info {
     background-color: var(--clr-background);
     color: var(--clr-small-text);    
-    height: 20em;
+    height: 25em;
     list-style: none;
     opacity: 0.9;
     padding: 1em 1em 1em 2em; 
     position: absolute;
     top: 0em;
     visibility: hidden;
-    width: 19.47em;
+    width: 24em;
 }
 
 .employee-info-visible {
@@ -331,7 +331,8 @@ footer p {
 
 #backToTop {
     background: var(--clr-background);
-    width: max-content;
+    width: 47px;
+    height: 47px;
     border: none;
     border-radius: 50%;
     position: fixed;
